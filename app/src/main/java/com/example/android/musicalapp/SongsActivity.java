@@ -1,7 +1,9 @@
 package com.example.android.musicalapp;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.widget.ListView;
 import android.os.Bundle;
 import java.util.ArrayList;

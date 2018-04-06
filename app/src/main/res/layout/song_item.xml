@@ -27,7 +27,7 @@
         android:layout_width="88dp"
         android:layout_height="88dp"
         android:padding="10dp"
-        android:src="@mipmap/music"/>
+        android:src="@drawable/music"/>
     />
 
     <LinearLayout

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MusicalApp</string>
+    <string name="songs_screen">List of all songs</string>
+    <string name="player_screen">Music player</string>
 </resources>

@@ -12,7 +12,7 @@
         android:layout_height="200dp"
         android:padding="10dp"
         android:layout_gravity="center"
-        android:src="@mipmap/placeholder"
+        android:src="@drawable/placeholder"
         android:layout_marginBottom="30dp"/>
     />
 
@@ -43,7 +43,7 @@
             android:layout_height="88dp"
             android:padding="10dp"
             android:layout_gravity="center"
-            android:src="@mipmap/play"
+            android:src="@drawable/play"
             />
 
         <ImageView
@@ -51,7 +51,7 @@
             android:layout_height="88dp"
             android:padding="10dp"
             android:layout_gravity="center"
-            android:src="@mipmap/stop" />
+            android:src="@drawable/stop" />
 
     </LinearLayout>
 

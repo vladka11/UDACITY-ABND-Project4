@@ -9,8 +9,6 @@
     android:padding="20dp"
     tools:context="com.example.android.musicalapp.MainActivity">
 
-
-
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -25,7 +23,7 @@
         android:layout_height="120dp"
         android:padding="10dp"
         android:layout_gravity="center"
-        android:src="@mipmap/music"/>
+        android:src="@drawable/music"/>
     />
 
     <Button
@@ -37,7 +35,6 @@
         android:background="#5AA382"
         android:textColor="@android:color/white"
         android:id="@+id/specialButton"
-
         />
 
 </LinearLayout>

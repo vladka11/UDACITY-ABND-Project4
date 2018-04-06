@@ -16,9 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SongsActivity"></activity>
-        <activity android:name=".PlayerActivity"></activity>
-
+        <activity android:name=".SongsActivity"
+                  android:label="@string/songs_screen"
+            android:parentActivityName="com.example.android.musicalapp.MainActivity"/>
+        <activity android:name=".PlayerActivity"
+                  android:label="@string/player_screen"
+            android:parentActivityName="com.example.android.musicalapp.SongsActivity"/>
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.example.android.musicalapp.MainActivity" />
 
     </application>
 
